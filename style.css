@@ -284,6 +284,9 @@ button.save:hover {
     opacity: .6;
     background-size: 100%;
 }
+.winner-popup.no-win .win-bg{
+    display: none;
+}
 
 .winner-popup-item {
     z-index: 10;
@@ -305,6 +308,14 @@ button.save:hover {
 .winner-popup-item p {
     margin: 10px 0 20px;
 }
+.winner-popup .no-winner,
+.winner-popup.no-win .user-name {
+    display: none;
+}
+.winner-popup.no-win .no-winner {
+    display: block;
+}
+
 .replay {
     display: flex;
     justify-content: space-between;
